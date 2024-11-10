@@ -6,7 +6,7 @@ for(let i = 1; i <= 30;i++){
     num.push(i);
 }
 
-  console.log(chalk.bold.greenBright(`Welome to the number cutting game!..`));
+console.log(chalk.bold.greenBright(`Welome to the number cutting game!..`));
 let condition = true;
 let player1 = await inquirer.prompt([
   {
